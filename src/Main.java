@@ -5,7 +5,7 @@ public class Main {
         // constructors
         Person person1 = new Person();
         Person person2 = new Person("Thomas", "Wang", 17);
-        /*
+
         // getters
         System.out.println("----------------------------");
         System.out.println("Person 1 First Name: " + person1.getFirstName());
@@ -35,11 +35,10 @@ public class Main {
         person2.eat();
         person1.sleep(5);
         person2.sleep(3);
-        //person1.ageByYears(4);
-        //person2.ageByYears(15);
         person1.ageByYearsAndPrint(4);
         person2.ageByYearsAndPrint(15);
-        */
+
+        // toString
         System.out.println(person1);
         System.out.println(person2);
     }
